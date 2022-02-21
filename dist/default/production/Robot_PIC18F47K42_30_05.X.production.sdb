@@ -1,0 +1,1542 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K42 ]
+[d frameptr 4065 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\atan.c
+[v _atan atan `(d  1 e 4 0 ]
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\cos.c
+[v _cos cos `(d  1 e 4 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fabs.c
+[v _fabs fabs `(d  1 e 4 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+"43 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"254 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+"86 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"20 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\round.c
+[v _round round `(d  1 e 4 0 ]
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sin.c
+[v _sin sin `(d  1 e 4 0 ]
+"10 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"9 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcsqrt.c
+[v _sqrt sqrt `(d  1 e 4 0 ]
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\trunc.c
+[v _trunc trunc `(d  1 e 4 0 ]
+"15 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"10 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"12 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _LW_motor_LAT LW_motor_LAT `(v  1 e 1 0 ]
+"19
+[v _RW_motor_LAT RW_motor_LAT `(v  1 e 1 0 ]
+"26
+[v _B_motor_LAT B_motor_LAT `(v  1 e 1 0 ]
+"33
+[v _S_motor_LAT S_motor_LAT `(v  1 e 1 0 ]
+"40
+[v _E_motor_LAT E_motor_LAT `(v  1 e 1 0 ]
+"47
+[v _G_motor_LAT G_motor_LAT `(v  1 e 1 0 ]
+"55
+[v _LW_motor LW_motor `(v  1 e 1 0 ]
+"79
+[v _RW_motor RW_motor `(v  1 e 1 0 ]
+"103
+[v _B_motor B_motor `(v  1 e 1 0 ]
+"127
+[v _S_motor S_motor `(v  1 e 1 0 ]
+"151
+[v _E_motor E_motor `(v  1 e 1 0 ]
+"179
+[v _G_motor G_motor `(v  1 e 1 0 ]
+"209
+[v _SEG_start_check SEG_start_check `(v  1 e 1 0 ]
+"240
+[v _G_start_check G_start_check `(v  1 e 1 0 ]
+"28 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
+"40
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"81
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+"50 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"66
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"80
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"51 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"21 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"47
+[v _TMR1_ISR TMR1_ISR `IIL(v  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"46
+[v _TMR2_ISR TMR2_ISR `IIL(v  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+"46
+[v _TMR3_ISR TMR3_ISR `IIL(v  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+"48
+[v _TMR4_ISR TMR4_ISR `IIL(v  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr5.c
+[v _TMR5_Initialize TMR5_Initialize `(v  1 e 1 0 ]
+"45
+[v _TMR5_ISR TMR5_ISR `IIL(v  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr6.c
+[v _TMR6_Initialize TMR6_Initialize `(v  1 e 1 0 ]
+"44
+[v _TMR6_ISR TMR6_ISR `IIL(v  1 e 1 0 ]
+"128 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RFM70_init_Rx.c
+[v _SPI_RW SPI_RW `(uc  1 e 1 0 ]
+[v i2_SPI_RW SPI_RW `(uc  1 e 1 0 ]
+"144
+[v _SPI_Write_Reg SPI_Write_Reg `(v  1 e 1 0 ]
+[v i2_SPI_Write_Reg SPI_Write_Reg `(v  1 e 1 0 ]
+"160
+[v _SPI_Read_Reg SPI_Read_Reg `(uc  1 e 1 0 ]
+"177
+[v _SPI_Read_Buf SPI_Read_Buf `(v  1 e 1 0 ]
+"197
+[v _SPI_Write_Buf SPI_Write_Buf `(v  1 e 1 0 ]
+"213
+[v _SwitchToRxMode SwitchToRxMode `(v  1 e 1 0 ]
+"261
+[v _SwitchCFG SwitchCFG `(v  1 e 1 0 ]
+"296
+[v _RFM70_Initialize RFM70_Initialize `(v  1 e 1 0 ]
+"29 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RoboticArm.c
+[v _elbow_shoulder_motors_off elbow_shoulder_motors_off `(v  1 e 1 0 ]
+"36
+[v _base_motors_off base_motors_off `(v  1 e 1 0 ]
+"47
+[v _pitch_roll_motors_off pitch_roll_motors_off `(v  1 e 1 0 ]
+"55
+[v _rad_calculation_auto rad_calculation_auto `(v  1 e 1 0 ]
+"74
+[v _rad_calculation_manual rad_calculation_manual `(v  1 e 1 0 ]
+"84
+[v _next_rad_calculation_manual next_rad_calculation_manual `(v  1 e 1 0 ]
+"94
+[v _steps_calculation steps_calculation `(v  1 e 1 0 ]
+"101
+[v _next_steps_calculation next_steps_calculation `(v  1 e 1 0 ]
+"108
+[v _real_rad_calculation real_rad_calculation `(v  1 e 1 0 ]
+"114
+[v _rad_copy rad_copy `(v  1 e 1 0 ]
+"120
+[v _values_update values_update `(v  1 e 1 0 ]
+"159
+[v _main main `(v  1 e 1 0 ]
+"726 D:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f47k42.h
+[v _IVTADL IVTADL `VEuc  1 e 1 @14493 ]
+"746
+[v _IVTADH IVTADH `VEuc  1 e 1 @14494 ]
+"766
+[v _IVTADU IVTADU `VEuc  1 e 1 @14495 ]
+[s S165 . 1 `uc 1 INT0IP 1 0 :1:0 
+`uc 1 ZCDIP 1 0 :1:1 
+`uc 1 ADIP 1 0 :1:2 
+`uc 1 ADTIP 1 0 :1:3 
+`uc 1 C1IP 1 0 :1:4 
+`uc 1 SMT1IP 1 0 :1:5 
+`uc 1 SMT1PRAIP 1 0 :1:6 
+`uc 1 SMT1PWAIP 1 0 :1:7 
+]
+"2849
+[s S174 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIP 1 0 :1:7 
+]
+[u S180 . 1 `S165 1 . 1 0 `S174 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES180  1 e 1 @14721 ]
+[s S261 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR1GIP 1 0 :1:1 
+`uc 1 TMR2IP 1 0 :1:2 
+`uc 1 CCP1IP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 NCO1IP 1 0 :1:5 
+`uc 1 CWG1IP 1 0 :1:6 
+`uc 1 CLC1IP 1 0 :1:7 
+]
+"3078
+[s S270 . 1 `uc 1 CCIP3IP 1 0 :1:0 
+]
+[u S272 . 1 `S261 1 . 1 0 `S270 1 . 1 0 ]
+[v _IPR4bits IPR4bits `VES272  1 e 1 @14724 ]
+[s S240 . 1 `uc 1 I2C2IP 1 0 :1:0 
+`uc 1 I2C2EIP 1 0 :1:1 
+`uc 1 U2RXIP 1 0 :1:2 
+`uc 1 U2TXIP 1 0 :1:3 
+`uc 1 U2EIP 1 0 :1:4 
+`uc 1 U2IP 1 0 :1:5 
+`uc 1 TMR3IP 1 0 :1:6 
+`uc 1 TMR3GIP 1 0 :1:7 
+]
+"3229
+[u S249 . 1 `S240 1 . 1 0 ]
+[v _IPR6bits IPR6bits `VES249  1 e 1 @14726 ]
+[s S223 . 1 `uc 1 TMR4IP 1 0 :1:0 
+`uc 1 CCP2IP 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 CWG2IP 1 0 :1:3 
+`uc 1 CLC2IP 1 0 :1:4 
+`uc 1 INT2IP 1 0 :1:5 
+]
+"3289
+[u S230 . 1 `S223 1 . 1 0 ]
+[v _IPR7bits IPR7bits `VES230  1 e 1 @14727 ]
+[s S212 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TMR5IP 1 0 :1:6 
+`uc 1 TMR5GIP 1 0 :1:7 
+]
+"3331
+[u S216 . 1 `S212 1 . 1 0 ]
+[v _IPR8bits IPR8bits `VES216  1 e 1 @14728 ]
+[s S199 . 1 `uc 1 TMR6IP 1 0 :1:0 
+`uc 1 CCP3IP 1 0 :1:1 
+`uc 1 CWG3IP 1 0 :1:2 
+`uc 1 CLC3IP 1 0 :1:3 
+]
+"3359
+[u S204 . 1 `S199 1 . 1 0 ]
+[v _IPR9bits IPR9bits `VES204  1 e 1 @14729 ]
+[s S758 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ADTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"3500
+[s S767 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+[s S773 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+]
+[u S776 . 1 `S758 1 . 1 0 `S767 1 . 1 0 `S773 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES776  1 e 1 @14737 ]
+[s S365 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR1GIE 1 0 :1:1 
+`uc 1 TMR2IE 1 0 :1:2 
+`uc 1 CCP1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 NCO1IE 1 0 :1:5 
+`uc 1 CWG1IE 1 0 :1:6 
+`uc 1 CLC1IE 1 0 :1:7 
+]
+"3763
+[u S374 . 1 `S365 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES374  1 e 1 @14740 ]
+[s S640 . 1 `uc 1 I2C2IE 1 0 :1:0 
+`uc 1 I2C2EIE 1 0 :1:1 
+`uc 1 U2RXIE 1 0 :1:2 
+`uc 1 U2TXIE 1 0 :1:3 
+`uc 1 U2EIE 1 0 :1:4 
+`uc 1 U2IE 1 0 :1:5 
+`uc 1 TMR3IE 1 0 :1:6 
+`uc 1 TMR3GIE 1 0 :1:7 
+]
+"3882
+[u S649 . 1 `S640 1 . 1 0 ]
+[v _PIE6bits PIE6bits `VES649  1 e 1 @14742 ]
+[s S477 . 1 `uc 1 TMR4IE 1 0 :1:0 
+`uc 1 CCP2IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 CWG2IE 1 0 :1:3 
+`uc 1 CLC2IE 1 0 :1:4 
+`uc 1 INT2IE 1 0 :1:5 
+]
+"3942
+[u S484 . 1 `S477 1 . 1 0 ]
+[v _PIE7bits PIE7bits `VES484  1 e 1 @14743 ]
+[s S585 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TMR5IE 1 0 :1:6 
+`uc 1 TMR5GIE 1 0 :1:7 
+]
+"3984
+[u S589 . 1 `S585 1 . 1 0 ]
+[v _PIE8bits PIE8bits `VES589  1 e 1 @14744 ]
+[s S536 . 1 `uc 1 TMR6IE 1 0 :1:0 
+`uc 1 CCP3IE 1 0 :1:1 
+`uc 1 CWG3IE 1 0 :1:2 
+`uc 1 CLC3IE 1 0 :1:3 
+]
+"4012
+[u S541 . 1 `S536 1 . 1 0 ]
+[v _PIE9bits PIE9bits `VES541  1 e 1 @14745 ]
+[s S689 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ADTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"4153
+[s S698 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[s S704 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+]
+[u S707 . 1 `S689 1 . 1 0 `S698 1 . 1 0 `S704 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES707  1 e 1 @14753 ]
+[s S1138 . 1 `uc 1 DMA1SCNTIF 1 0 :1:0 
+`uc 1 DMA1DCNTIF 1 0 :1:1 
+`uc 1 DMA1ORIF 1 0 :1:2 
+`uc 1 DMA1AIF 1 0 :1:3 
+`uc 1 SPI1RXIF 1 0 :1:4 
+`uc 1 SPI1TXIF 1 0 :1:5 
+`uc 1 SPI1IF 1 0 :1:6 
+`uc 1 I2C1RXIF 1 0 :1:7 
+]
+"4239
+[s S1147 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S1150 . 1 `S1138 1 . 1 0 `S1147 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1150  1 e 1 @14754 ]
+[s S344 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR1GIF 1 0 :1:1 
+`uc 1 TMR2IF 1 0 :1:2 
+`uc 1 CCP1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 NCO1IF 1 0 :1:5 
+`uc 1 CWG1IF 1 0 :1:6 
+`uc 1 CLC1IF 1 0 :1:7 
+]
+"4384
+[u S353 . 1 `S344 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES353  1 e 1 @14756 ]
+[s S619 . 1 `uc 1 I2C2IF 1 0 :1:0 
+`uc 1 I2C2EIF 1 0 :1:1 
+`uc 1 U2RXIF 1 0 :1:2 
+`uc 1 U2TXIF 1 0 :1:3 
+`uc 1 U2EIF 1 0 :1:4 
+`uc 1 U2IF 1 0 :1:5 
+`uc 1 TMR3IF 1 0 :1:6 
+`uc 1 TMR3GIF 1 0 :1:7 
+]
+"4503
+[u S628 . 1 `S619 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES628  1 e 1 @14758 ]
+[s S460 . 1 `uc 1 TMR4IF 1 0 :1:0 
+`uc 1 CCP2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 CWG2IF 1 0 :1:3 
+`uc 1 CLC2IF 1 0 :1:4 
+`uc 1 INT2IF 1 0 :1:5 
+]
+"4563
+[u S467 . 1 `S460 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES467  1 e 1 @14759 ]
+[s S574 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TMR5IF 1 0 :1:6 
+`uc 1 TMR5GIF 1 0 :1:7 
+]
+"4605
+[u S578 . 1 `S574 1 . 1 0 ]
+[v _PIR8bits PIR8bits `VES578  1 e 1 @14760 ]
+[s S523 . 1 `uc 1 TMR6IF 1 0 :1:0 
+`uc 1 CCP3IF 1 0 :1:1 
+`uc 1 CWG3IF 1 0 :1:2 
+`uc 1 CLC3IF 1 0 :1:3 
+]
+"4633
+[u S528 . 1 `S523 1 . 1 0 ]
+[v _PIR9bits PIR9bits `VES528  1 e 1 @14761 ]
+"4684
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"4761
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"4831
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"4876
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"4938
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"4971
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"5016
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"5066
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"5205
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5345
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5497
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5548
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5652
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"6910
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @14857 ]
+"7042
+[v _RB4PPS RB4PPS `VEuc  1 e 1 @14860 ]
+"8054
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"8116
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"8178
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"8240
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"8550
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"8612
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8674
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8736
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8798
+[v _INLVLB INLVLB `VEuc  1 e 1 @14932 ]
+"9046
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"9154
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"9262
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"9324
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"9386
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"9448
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"9758
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"9866
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"9974
+[v _ANSELD ANSELD `VEuc  1 e 1 @14960 ]
+"10036
+[v _WPUD WPUD `VEuc  1 e 1 @14961 ]
+"10098
+[v _ODCOND ODCOND `VEuc  1 e 1 @14962 ]
+"10160
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @14963 ]
+"10284
+[v _RD0I2C RD0I2C `VEuc  1 e 1 @14970 ]
+"10392
+[v _RD1I2C RD1I2C `VEuc  1 e 1 @14971 ]
+"10500
+[v _ANSELE ANSELE `VEuc  1 e 1 @14976 ]
+"10532
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"10570
+[v _ODCONE ODCONE `VEuc  1 e 1 @14978 ]
+"10602
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @14979 ]
+"10755
+[v _INT0PPS INT0PPS `VEuc  1 e 1 @15040 ]
+"11355
+[v _SPI1SCKPPS SPI1SCKPPS `VEuc  1 e 1 @15070 ]
+"11375
+[v _SPI1SDIPPS SPI1SDIPPS `VEuc  1 e 1 @15071 ]
+"22069
+[v _SPI1RXB SPI1RXB `VEuc  1 e 1 @15632 ]
+"22139
+[v _SPI1TXB SPI1TXB `VEuc  1 e 1 @15633 ]
+"22256
+[v _SPI1CON0 SPI1CON0 `VEuc  1 e 1 @15636 ]
+"22322
+[v _SPI1CON1 SPI1CON1 `VEuc  1 e 1 @15637 ]
+"22424
+[v _SPI1CON2 SPI1CON2 `VEuc  1 e 1 @15638 ]
+"22624
+[v _SPI1BAUD SPI1BAUD `VEuc  1 e 1 @15641 ]
+"22878
+[v _SPI1CLK SPI1CLK `VEuc  1 e 1 @15644 ]
+"39724
+[v _T6TMR T6TMR `VEuc  1 e 1 @16274 ]
+"39762
+[v _T6PR T6PR `VEuc  1 e 1 @16275 ]
+"39800
+[v _T6CON T6CON `VEuc  1 e 1 @16276 ]
+[s S1392 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"39836
+[s S1509 . 1 `uc 1 T6OUTPS 1 0 :4:0 
+`uc 1 T6CKPS 1 0 :3:4 
+`uc 1 T6ON 1 0 :1:7 
+]
+"39836
+[s S1513 . 1 `uc 1 T6OUTPS0 1 0 :1:0 
+`uc 1 T6OUTPS1 1 0 :1:1 
+`uc 1 T6OUTPS2 1 0 :1:2 
+`uc 1 T6OUTPS3 1 0 :1:3 
+`uc 1 T6CKPS0 1 0 :1:4 
+`uc 1 T6CKPS1 1 0 :1:5 
+`uc 1 T6CKPS2 1 0 :1:6 
+]
+"39836
+[s S1521 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR6ON 1 0 :1:7 
+]
+"39836
+[u S1530 . 1 `S1392 1 . 1 0 `S1509 1 . 1 0 `S1513 1 . 1 0 `S1521 1 . 1 0 ]
+"39836
+"39836
+[v _T6CONbits T6CONbits `VES1530  1 e 1 @16276 ]
+"39946
+[v _T6HLT T6HLT `VEuc  1 e 1 @16277 ]
+"40074
+[v _T6CLKCON T6CLKCON `VEuc  1 e 1 @16278 ]
+"40232
+[v _T6RST T6RST `VEuc  1 e 1 @16279 ]
+"40324
+[v _TMR5L TMR5L `VEuc  1 e 1 @16280 ]
+"40394
+[v _TMR5H TMR5H `VEuc  1 e 1 @16281 ]
+"40464
+[v _T5CON T5CON `VEuc  1 e 1 @16282 ]
+[s S884 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"40500
+[s S1009 . 1 `uc 1 TMR5ON 1 0 :1:0 
+`uc 1 T5RD16 1 0 :1:1 
+`uc 1 NOT_T5SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T5CKPS0 1 0 :1:4 
+`uc 1 T5CKPS1 1 0 :1:5 
+]
+"40500
+[s S897 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+"40500
+[s S1020 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD165 1 0 :1:1 
+]
+"40500
+[u S1023 . 1 `S884 1 . 1 0 `S1009 1 . 1 0 `S897 1 . 1 0 `S1020 1 . 1 0 ]
+"40500
+"40500
+[v _T5CONbits T5CONbits `VES1023  1 e 1 @16282 ]
+"40654
+[v _T5GCON T5GCON `VEuc  1 e 1 @16283 ]
+"40868
+[v _T5GATE T5GATE `VEuc  1 e 1 @16284 ]
+"41034
+[v _T5CLK T5CLK `VEuc  1 e 1 @16285 ]
+"41200
+[v _T4TMR T4TMR `VEuc  1 e 1 @16286 ]
+"41238
+[v _T4PR T4PR `VEuc  1 e 1 @16287 ]
+"41276
+[v _T4CON T4CON `VEuc  1 e 1 @16288 ]
+"41312
+[s S1453 . 1 `uc 1 T4OUTPS 1 0 :4:0 
+`uc 1 T4CKPS 1 0 :3:4 
+`uc 1 T4ON 1 0 :1:7 
+]
+"41312
+[s S1457 . 1 `uc 1 T4OUTPS0 1 0 :1:0 
+`uc 1 T4OUTPS1 1 0 :1:1 
+`uc 1 T4OUTPS2 1 0 :1:2 
+`uc 1 T4OUTPS3 1 0 :1:3 
+`uc 1 T4CKPS0 1 0 :1:4 
+`uc 1 T4CKPS1 1 0 :1:5 
+`uc 1 T4CKPS2 1 0 :1:6 
+]
+"41312
+[s S1465 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR4ON 1 0 :1:7 
+]
+"41312
+[u S1474 . 1 `S1392 1 . 1 0 `S1453 1 . 1 0 `S1457 1 . 1 0 `S1465 1 . 1 0 ]
+"41312
+"41312
+[v _T4CONbits T4CONbits `VES1474  1 e 1 @16288 ]
+"41422
+[v _T4HLT T4HLT `VEuc  1 e 1 @16289 ]
+"41550
+[v _T4CLKCON T4CLKCON `VEuc  1 e 1 @16290 ]
+"41708
+[v _T4RST T4RST `VEuc  1 e 1 @16291 ]
+"41800
+[v _TMR3L TMR3L `VEuc  1 e 1 @16292 ]
+"41870
+[v _TMR3H TMR3H `VEuc  1 e 1 @16293 ]
+"41940
+[v _T3CON T3CON `VEuc  1 e 1 @16294 ]
+"41976
+[s S936 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 T3RD16 1 0 :1:1 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+]
+"41976
+"41976
+[s S947 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD163 1 0 :1:1 
+]
+"41976
+[u S950 . 1 `S884 1 . 1 0 `S936 1 . 1 0 `S897 1 . 1 0 `S947 1 . 1 0 ]
+"41976
+"41976
+[v _T3CONbits T3CONbits `VES950  1 e 1 @16294 ]
+"42130
+[v _T3GCON T3GCON `VEuc  1 e 1 @16295 ]
+"42344
+[v _T3GATE T3GATE `VEuc  1 e 1 @16296 ]
+"42510
+[v _T3CLK T3CLK `VEuc  1 e 1 @16297 ]
+"42676
+[v _T2TMR T2TMR `VEuc  1 e 1 @16298 ]
+"42714
+[v _T2PR T2PR `VEuc  1 e 1 @16299 ]
+"42752
+[v _T2CON T2CON `VEuc  1 e 1 @16300 ]
+"42788
+[s S1396 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+"42788
+[s S1400 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+"42788
+[s S1408 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+"42788
+[u S1417 . 1 `S1392 1 . 1 0 `S1396 1 . 1 0 `S1400 1 . 1 0 `S1408 1 . 1 0 ]
+"42788
+"42788
+[v _T2CONbits T2CONbits `VES1417  1 e 1 @16300 ]
+"42898
+[v _T2HLT T2HLT `VEuc  1 e 1 @16301 ]
+"43026
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @16302 ]
+"43184
+[v _T2RST T2RST `VEuc  1 e 1 @16303 ]
+"43276
+[v _TMR1L TMR1L `VEuc  1 e 1 @16304 ]
+"43346
+[v _TMR1H TMR1H `VEuc  1 e 1 @16305 ]
+"43416
+[v _T1CON T1CON `VEuc  1 e 1 @16306 ]
+"43452
+[s S890 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+"43452
+"43452
+[s S901 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+"43452
+[u S904 . 1 `S884 1 . 1 0 `S890 1 . 1 0 `S897 1 . 1 0 `S901 1 . 1 0 ]
+"43452
+"43452
+[v _T1CONbits T1CONbits `VES904  1 e 1 @16306 ]
+"43606
+[v _T1GCON T1GCON `VEuc  1 e 1 @16307 ]
+"43820
+[v _T1GATE T1GATE `VEuc  1 e 1 @16308 ]
+"43986
+[v _T1CLK T1CLK `VEuc  1 e 1 @16309 ]
+"44784
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"44896
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+"45008
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"45120
+[v _LATD LATD `VEuc  1 e 1 @16317 ]
+"45232
+[v _LATE LATE `VEuc  1 e 1 @16318 ]
+"45284
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"45346
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"45408
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+"45470
+[v _TRISD TRISD `VEuc  1 e 1 @16325 ]
+"45532
+[v _TRISE TRISE `VEuc  1 e 1 @16326 ]
+[s S976 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"45888
+[s S981 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP9E 1 0 :1:3 
+]
+"45888
+[s S984 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 PC3E 1 0 :1:3 
+]
+"45888
+[u S987 . 1 `S976 1 . 1 0 `S981 1 . 1 0 `S984 1 . 1 0 ]
+"45888
+"45888
+[v _PORTEbits PORTEbits `VES987  1 e 1 @16334 ]
+[s S127 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"45943
+[s S135 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"45943
+[u S138 . 1 `S127 1 . 1 0 `S135 1 . 1 0 ]
+"45943
+"45943
+[v _INTCON0bits INTCON0bits `VES138  1 e 1 @16338 ]
+"46019
+[v _IVTLOCK IVTLOCK `VEuc  1 e 1 @16340 ]
+[s S155 . 1 `uc 1 IVTLOCKED 1 0 :1:0 
+]
+"46029
+[u S157 . 1 `S155 1 . 1 0 ]
+"46029
+"46029
+[v _IVTLOCKbits IVTLOCKbits `VES157  1 e 1 @16340 ]
+"49976
+[v _GIE GIE `VEb  1 e 0 @130711 ]
+"49978
+[v _GIEH GIEH `VEb  1 e 0 @130711 ]
+"49980
+[v _GIEL GIEL `VEb  1 e 0 @130710 ]
+"50508
+[v _LATA0 LATA0 `VEb  1 e 0 @130512 ]
+"50510
+[v _LATA1 LATA1 `VEb  1 e 0 @130513 ]
+"50512
+[v _LATA2 LATA2 `VEb  1 e 0 @130514 ]
+"50514
+[v _LATA3 LATA3 `VEb  1 e 0 @130515 ]
+"50516
+[v _LATA4 LATA4 `VEb  1 e 0 @130516 ]
+"50518
+[v _LATA5 LATA5 `VEb  1 e 0 @130517 ]
+"50520
+[v _LATA6 LATA6 `VEb  1 e 0 @130518 ]
+"50522
+[v _LATA7 LATA7 `VEb  1 e 0 @130519 ]
+"50540
+[v _LATC0 LATC0 `VEb  1 e 0 @130528 ]
+"50542
+[v _LATC1 LATC1 `VEb  1 e 0 @130529 ]
+"50544
+[v _LATC2 LATC2 `VEb  1 e 0 @130530 ]
+"50546
+[v _LATC3 LATC3 `VEb  1 e 0 @130531 ]
+"50548
+[v _LATC4 LATC4 `VEb  1 e 0 @130532 ]
+"50550
+[v _LATC5 LATC5 `VEb  1 e 0 @130533 ]
+"50552
+[v _LATC6 LATC6 `VEb  1 e 0 @130534 ]
+"50554
+[v _LATC7 LATC7 `VEb  1 e 0 @130535 ]
+"50556
+[v _LATD0 LATD0 `VEb  1 e 0 @130536 ]
+"50558
+[v _LATD1 LATD1 `VEb  1 e 0 @130537 ]
+"50560
+[v _LATD2 LATD2 `VEb  1 e 0 @130538 ]
+"50562
+[v _LATD3 LATD3 `VEb  1 e 0 @130539 ]
+"50564
+[v _LATD4 LATD4 `VEb  1 e 0 @130540 ]
+"50566
+[v _LATD5 LATD5 `VEb  1 e 0 @130541 ]
+"50568
+[v _LATD6 LATD6 `VEb  1 e 0 @130542 ]
+"50570
+[v _LATD7 LATD7 `VEb  1 e 0 @130543 ]
+"52142
+[v _RB2 RB2 `VEb  1 e 0 @130650 ]
+"52154
+[v _RB3 RB3 `VEb  1 e 0 @130651 ]
+"53666
+[v _TMR1IF TMR1IF `VEb  1 e 0 @118048 ]
+"53700
+[v _TMR2IF TMR2IF `VEb  1 e 0 @118050 ]
+"53734
+[v _TMR3IF TMR3IF `VEb  1 e 0 @118070 ]
+"53760
+[v _TMR4IF TMR4IF `VEb  1 e 0 @118072 ]
+"53794
+[v _TMR5IF TMR5IF `VEb  1 e 0 @118086 ]
+"53820
+[v _TMR6IF TMR6IF `VEb  1 e 0 @118088 ]
+"3 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"126 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Definitions.h
+[v _X_c X_c `f  1 e 4 0 ]
+[v _Y_c Y_c `f  1 e 4 0 ]
+[v _Z_c Z_c `f  1 e 4 0 ]
+"127
+[v _Roll Roll `f  1 e 4 0 ]
+[v _Pitch Pitch `f  1 e 4 0 ]
+"128
+[v _RR RR `f  1 e 4 0 ]
+[v _R0 R0 `f  1 e 4 0 ]
+[v _Z0 Z0 `f  1 e 4 0 ]
+"130
+[v _alfa alfa `f  1 e 4 0 ]
+[v _beta beta `f  1 e 4 0 ]
+"131
+[v _base_rad base_rad `f  1 e 4 0 ]
+[v _shoulder_rad shoulder_rad `f  1 e 4 0 ]
+[v _elbow_rad elbow_rad `f  1 e 4 0 ]
+"135
+[v _lwrist_steps lwrist_steps `i  1 e 2 0 ]
+"139
+[v _rwrist_steps rwrist_steps `i  1 e 2 0 ]
+"143
+[v _base_steps base_steps `i  1 e 2 0 ]
+"147
+[v _shoulder_steps shoulder_steps `i  1 e 2 0 ]
+"148
+[v _shoulder_steps_count shoulder_steps_count `i  1 e 2 0 ]
+"151
+[v _elbow_steps elbow_steps `i  1 e 2 0 ]
+"152
+[v _elbow_steps_count elbow_steps_count `i  1 e 2 0 ]
+"155
+[v _real_shoulder_rad real_shoulder_rad `f  1 e 4 0 ]
+"156
+[v _real_elbow_rad real_elbow_rad `f  1 e 4 0 ]
+"158
+[v _next_shoulder_rad next_shoulder_rad `f  1 e 4 0 ]
+"159
+[v _next_elbow_rad next_elbow_rad `f  1 e 4 0 ]
+"161
+[v _next_shoulder_steps next_shoulder_steps `i  1 e 2 0 ]
+"162
+[v _next_elbow_steps next_elbow_steps `i  1 e 2 0 ]
+"163
+[v _next_grip_steps next_grip_steps `i  1 e 2 0 ]
+"168
+[v _grip_steps grip_steps `i  1 e 2 0 ]
+"169
+[v _grip_steps_count grip_steps_count `i  1 e 2 0 ]
+"187
+[v _LWM_phases LWM_phases `[8]uc  1 e 8 0 ]
+"198
+[v _LW_phase LW_phase `c  1 e 1 0 ]
+"200
+[v _RWM_phases RWM_phases `[8]uc  1 e 8 0 ]
+"211
+[v _RW_phase RW_phase `c  1 e 1 0 ]
+"213
+[v _BM_phases BM_phases `[8]uc  1 e 8 0 ]
+"224
+[v _B_phase B_phase `c  1 e 1 0 ]
+"226
+[v _SM_phases SM_phases `[8]uc  1 e 8 0 ]
+"237
+[v _S_phase S_phase `c  1 e 1 0 ]
+"239
+[v _EM_phases EM_phases `[8]uc  1 e 8 0 ]
+"250
+[v _E_phase E_phase `c  1 e 1 0 ]
+"252
+[v _GM_phases GM_phases `[8]uc  1 e 8 0 ]
+"263
+[v _G_phase G_phase `c  1 e 1 0 ]
+"266
+[v _LAT_copy LAT_copy `uc  1 e 1 0 ]
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/ext_int.c
+[v _rx_buf rx_buf `[2]uc  1 e 2 0 ]
+"20
+[v _RX_PORTA RX_PORTA `uc  1 e 1 0 ]
+"21
+[v _RX_PORTB RX_PORTB `uc  1 e 1 0 ]
+"23
+[v _copia_buf_0 copia_buf_0 `ui  1 e 2 0 ]
+"24
+[v _copia_buf_1 copia_buf_1 `ui  1 e 2 0 ]
+"16 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RFM70_init_Rx.c
+[v _Bank1_Reg0_13 Bank1_Reg0_13 `C[14]ul  1 e 56 0 ]
+"33
+[v _Bank1_Reg14 Bank1_Reg14 `C[11]uc  1 e 11 0 ]
+"39
+[v _Bank0_Reg Bank0_Reg `C[23][2]uc  1 e 46 0 ]
+"84
+[v _RX0_Address RX0_Address `C[3]uc  1 e 3 0 ]
+"85
+[v _RX1_Address RX1_Address `C[3]uc  1 e 3 0 ]
+"159 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RoboticArm.c
+[v _main main `(v  1 e 1 0 ]
+{
+"161
+[v main@elbow_shoulder_state elbow_shoulder_state `uc  1 a 1 88 ]
+"165
+[v main@pitch_roll_state pitch_roll_state `uc  1 a 1 87 ]
+"163
+[v main@grip_state grip_state `uc  1 a 1 86 ]
+"162
+[v main@base_state base_state `uc  1 a 1 85 ]
+"697
+} 0
+"120
+[v _values_update values_update `(v  1 e 1 0 ]
+{
+"127
+} 0
+"94
+[v _steps_calculation steps_calculation `(v  1 e 1 0 ]
+{
+"99
+} 0
+"108
+[v _real_rad_calculation real_rad_calculation `(v  1 e 1 0 ]
+{
+"112
+} 0
+"114
+[v _rad_copy rad_copy `(v  1 e 1 0 ]
+{
+"118
+} 0
+"74
+[v _rad_calculation_manual rad_calculation_manual `(v  1 e 1 0 ]
+{
+"82
+} 0
+"55
+[v _rad_calculation_auto rad_calculation_auto `(v  1 e 1 0 ]
+{
+"71
+} 0
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\cos.c
+[v _cos cos `(d  1 e 4 0 ]
+{
+[v cos@f f `d  1 p 4 72 ]
+"24
+} 0
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sin.c
+[v _sin sin `(d  1 e 4 0 ]
+{
+"30
+[v sin@x2 x2 `d  1 a 4 67 ]
+[v sin@y y `d  1 a 4 59 ]
+"31
+[v sin@sgn sgn `uc  1 a 1 71 ]
+"13
+[v sin@f f `d  1 p 4 55 ]
+"15
+[v sin@coeff_a coeff_a `C[5]d  1 s 20 coeff_a ]
+"23
+[v sin@coeff_b coeff_b `C[4]d  1 s 16 coeff_b ]
+"57
+} 0
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+{
+"15
+[v floor@i i `d  1 a 4 41 ]
+"16
+[v floor@expon expon `i  1 a 2 45 ]
+"13
+[v floor@x x `d  1 p 4 37 ]
+"30
+} 0
+"245 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 47 ]
+[v ___flsub@a a `d  1 p 4 51 ]
+"250
+} 0
+"47 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RoboticArm.c
+[v _pitch_roll_motors_off pitch_roll_motors_off `(v  1 e 1 0 ]
+{
+"51
+} 0
+"101
+[v _next_steps_calculation next_steps_calculation `(v  1 e 1 0 ]
+{
+"106
+} 0
+"6 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\round.c
+[v _round round `(d  1 e 4 0 ]
+{
+"8
+[v round@f f `d  1 a 4 51 ]
+"6
+[v round@x x `d  1 p 4 47 ]
+"13
+} 0
+"13 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\trunc.c
+[v _trunc trunc `(d  1 e 4 0 ]
+{
+"15
+[v trunc@i i `d  1 a 4 41 ]
+"16
+[v trunc@expon expon `i  1 a 2 45 ]
+"13
+[v trunc@x x `d  1 p 4 37 ]
+"25
+} 0
+"254 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+{
+[v frexp@value value `d  1 p 4 13 ]
+[v frexp@eptr eptr `*.39i  1 p 2 17 ]
+"274
+} 0
+"10 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 23 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 22 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 13 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 21 ]
+"44
+} 0
+"43 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 69 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 68 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 29 ]
+"70
+} 0
+"84 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RoboticArm.c
+[v _next_rad_calculation_manual next_rad_calculation_manual `(v  1 e 1 0 ]
+{
+"92
+} 0
+"9 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcsqrt.c
+[v _sqrt sqrt `(d  1 e 4 0 ]
+{
+"14
+[v sqrt@frac frac `ul  1 a 4 54 ]
+[s S1988 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"11
+[s S1993 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1996 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1988 1 fAsBytes 4 0 `S1993 1 fAsWords 4 0 ]
+[v sqrt@root root `S1996  1 a 4 50 ]
+"16
+[v sqrt@grs grs `ul  1 a 4 44 ]
+"15
+[v sqrt@tfrac tfrac `ul  1 a 4 39 ]
+"13
+[v sqrt@exp exp `i  1 a 2 48 ]
+"12
+[v sqrt@p p `uc  1 a 1 43 ]
+[v sqrt@i i `uc  1 a 1 38 ]
+[v sqrt@sign sign `uc  1 a 1 37 ]
+"9
+[v sqrt@a a `d  1 p 4 29 ]
+"159
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\atan.c
+[v _atan atan `(d  1 e 4 0 ]
+{
+"28
+[v atan@val val `d  1 a 4 75 ]
+[v atan@val_squared val_squared `d  1 a 4 71 ]
+[v atan@x x `d  1 a 4 66 ]
+[v atan@y y `d  1 a 4 62 ]
+"27
+[v atan@recip recip `uc  1 a 1 70 ]
+"8
+[v atan@f f `d  1 p 4 58 ]
+"10
+[v atan@coeff_a coeff_a `C[6]d  1 s 24 coeff_a ]
+"19
+[v atan@coeff_b coeff_b `C[5]d  1 s 20 coeff_b ]
+"41
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fabs.c
+[v _fabs fabs `(d  1 e 4 0 ]
+{
+[v fabs@d d `d  1 p 4 31 ]
+"9
+} 0
+"15 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 27 ]
+"20
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 4 41 ]
+"4
+[v eval_poly@x x `d  1 p 4 29 ]
+[v eval_poly@d d `*.32Cd  1 p 2 33 ]
+[v eval_poly@n n `i  1 p 2 35 ]
+"12
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1988 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1993 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1996 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1988 1 fAsBytes 4 0 `S1993 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1996  1 a 4 23 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 18 ]
+[s S2064 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2067 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S2064 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2067  1 a 2 27 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 22 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 17 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 16 ]
+"8
+[v ___flmul@b b `d  1 p 4 4 ]
+[v ___flmul@a a `d  1 p 4 8 ]
+"205
+} 0
+"10 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 3 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 2 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 1 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 0 ]
+"10
+[v ___fladd@b b `d  1 p 4 52 ]
+[v ___fladd@a a `d  1 p 4 56 ]
+"237
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 13 ]
+[v ___flge@ff2 ff2 `d  1 p 4 17 ]
+"19
+} 0
+"11 D:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 46 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 40 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 44 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 51 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 50 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 39 ]
+"11
+[v ___fldiv@b b `d  1 p 4 27 ]
+[v ___fldiv@a a `d  1 p 4 31 ]
+"184
+} 0
+"29 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RoboticArm.c
+[v _elbow_shoulder_motors_off elbow_shoulder_motors_off `(v  1 e 1 0 ]
+{
+"33
+} 0
+"36
+[v _base_motors_off base_motors_off `(v  1 e 1 0 ]
+{
+"39
+} 0
+"213 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RFM70_init_Rx.c
+[v _SwitchToRxMode SwitchToRxMode `(v  1 e 1 0 ]
+{
+"215
+[v SwitchToRxMode@value value `uc  1 a 1 17 ]
+"229
+} 0
+"50 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr6.c
+[v _TMR6_Initialize TMR6_Initialize `(v  1 e 1 0 ]
+{
+"42
+} 0
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr5.c
+[v _TMR5_Initialize TMR5_Initialize `(v  1 e 1 0 ]
+{
+"42
+} 0
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"42
+} 0
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+{
+"42
+} 0
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"42
+} 0
+"15 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"43
+} 0
+"21 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"37
+} 0
+"80 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"51 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"131
+} 0
+"66 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"52 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+[v INTERRUPT_Initialize@state state `uc  1 a 1 13 ]
+"79
+} 0
+"40 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"48
+} 0
+"209 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _SEG_start_check SEG_start_check `(v  1 e 1 0 ]
+{
+"228
+} 0
+"296 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RFM70_init_Rx.c
+[v _RFM70_Initialize RFM70_Initialize `(v  1 e 1 0 ]
+{
+"299
+[v RFM70_Initialize@WriteArr WriteArr `[12]uc  1 a 12 25 ]
+"298
+[v RFM70_Initialize@j j `uc  1 a 1 38 ]
+[v RFM70_Initialize@i i `uc  1 a 1 37 ]
+"396
+} 0
+"261
+[v _SwitchCFG SwitchCFG `(v  1 e 1 0 ]
+{
+[v SwitchCFG@_cfg _cfg `uc  1 a 1 wreg ]
+"263
+[v SwitchCFG@Tmp Tmp `uc  1 a 1 18 ]
+"261
+[v SwitchCFG@_cfg _cfg `uc  1 a 1 wreg ]
+"265
+[v SwitchCFG@_cfg _cfg `uc  1 a 1 17 ]
+"272
+} 0
+"144
+[v _SPI_Write_Reg SPI_Write_Reg `(v  1 e 1 0 ]
+{
+[v SPI_Write_Reg@reg reg `uc  1 a 1 wreg ]
+"146
+[v SPI_Write_Reg@status status `uc  1 a 1 15 ]
+"144
+[v SPI_Write_Reg@reg reg `uc  1 a 1 wreg ]
+[v SPI_Write_Reg@value value `uc  1 p 1 14 ]
+"147
+[v SPI_Write_Reg@reg reg `uc  1 a 1 16 ]
+"151
+} 0
+"160
+[v _SPI_Read_Reg SPI_Read_Reg `(uc  1 e 1 0 ]
+{
+[v SPI_Read_Reg@reg reg `uc  1 a 1 wreg ]
+"162
+[v SPI_Read_Reg@value value `uc  1 a 1 16 ]
+[v SPI_Read_Reg@status status `uc  1 a 1 14 ]
+"160
+[v SPI_Read_Reg@reg reg `uc  1 a 1 wreg ]
+"163
+[v SPI_Read_Reg@reg reg `uc  1 a 1 15 ]
+"168
+} 0
+"197
+[v _SPI_Write_Buf SPI_Write_Buf `(v  1 e 1 0 ]
+{
+[v SPI_Write_Buf@reg reg `uc  1 a 1 wreg ]
+"199
+[v SPI_Write_Buf@byte_ctr byte_ctr `uc  1 a 1 19 ]
+[v SPI_Write_Buf@status status `uc  1 a 1 17 ]
+"197
+[v SPI_Write_Buf@reg reg `uc  1 a 1 wreg ]
+[v SPI_Write_Buf@pBuf pBuf `*.39uc  1 p 2 14 ]
+[v SPI_Write_Buf@length length `uc  1 p 1 16 ]
+"201
+[v SPI_Write_Buf@reg reg `uc  1 a 1 18 ]
+"207
+} 0
+"128
+[v _SPI_RW SPI_RW `(uc  1 e 1 0 ]
+{
+[v SPI_RW@value value `uc  1 a 1 wreg ]
+[v SPI_RW@value value `uc  1 a 1 wreg ]
+"130
+[v SPI_RW@value value `uc  1 a 1 13 ]
+"133
+} 0
+"240 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _G_start_check G_start_check `(v  1 e 1 0 ]
+{
+"248
+} 0
+"47 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `IIL(v  1 e 1 0 ]
+{
+"55
+} 0
+"127 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _S_motor S_motor `(v  1 e 1 0 ]
+{
+"149
+} 0
+"33
+[v _S_motor_LAT S_motor_LAT `(v  1 e 1 0 ]
+{
+"38
+} 0
+"46 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr2.c
+[v _TMR2_ISR TMR2_ISR `IIL(v  1 e 1 0 ]
+{
+"51
+} 0
+"103 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _B_motor B_motor `(v  1 e 1 0 ]
+{
+"125
+} 0
+"26
+[v _B_motor_LAT B_motor_LAT `(v  1 e 1 0 ]
+{
+"31
+} 0
+"48 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr4.c
+[v _TMR4_ISR TMR4_ISR `IIL(v  1 e 1 0 ]
+{
+"53
+} 0
+"55 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _LW_motor LW_motor `(v  1 e 1 0 ]
+{
+"77
+} 0
+"12
+[v _LW_motor_LAT LW_motor_LAT `(v  1 e 1 0 ]
+{
+"17
+} 0
+"44 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr6.c
+[v _TMR6_ISR TMR6_ISR `IIL(v  1 e 1 0 ]
+{
+"49
+} 0
+"79 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _RW_motor RW_motor `(v  1 e 1 0 ]
+{
+"101
+} 0
+"19
+[v _RW_motor_LAT RW_motor_LAT `(v  1 e 1 0 ]
+{
+"24
+} 0
+"45 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr5.c
+[v _TMR5_ISR TMR5_ISR `IIL(v  1 e 1 0 ]
+{
+"53
+} 0
+"179 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _G_motor G_motor `(v  1 e 1 0 ]
+{
+"207
+} 0
+"47
+[v _G_motor_LAT G_motor_LAT `(v  1 e 1 0 ]
+{
+"52
+} 0
+"46 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/tmr3.c
+[v _TMR3_ISR TMR3_ISR `IIL(v  1 e 1 0 ]
+{
+"54
+} 0
+"151 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\Functions.c
+[v _E_motor E_motor `(v  1 e 1 0 ]
+{
+"173
+} 0
+"40
+[v _E_motor_LAT E_motor_LAT `(v  1 e 1 0 ]
+{
+"45
+} 0
+"81 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/interrupt_manager.c
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+{
+"83
+} 0
+"28 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
+{
+"38
+} 0
+"144 C:\Users\luigi\Desktop\Robot_PIC18F47K42_30_05.X\RFM70_init_Rx.c
+[v i2_SPI_Write_Reg SPI_Write_Reg `(v  1 e 1 0 ]
+{
+[v i2SPI_Write_Reg@reg reg `uc  1 a 1 wreg ]
+[v i2SPI_Write_Reg@status SPI_Write_Reg `uc  1 a 1 3 ]
+[v i2SPI_Write_Reg@reg reg `uc  1 a 1 wreg ]
+[v i2SPI_Write_Reg@value value `uc  1 p 1 1 ]
+"147
+[v i2SPI_Write_Reg@reg reg `uc  1 a 1 2 ]
+"151
+} 0
+"177
+[v _SPI_Read_Buf SPI_Read_Buf `(v  1 e 1 0 ]
+{
+[v SPI_Read_Buf@reg reg `uc  1 a 1 wreg ]
+"179
+[v SPI_Read_Buf@byte_ctr byte_ctr `uc  1 a 1 6 ]
+[v SPI_Read_Buf@status status `uc  1 a 1 4 ]
+"177
+[v SPI_Read_Buf@reg reg `uc  1 a 1 wreg ]
+[v SPI_Read_Buf@pBuf pBuf `*.39uc  1 p 2 1 ]
+[v SPI_Read_Buf@length length `uc  1 p 1 3 ]
+"181
+[v SPI_Read_Buf@reg reg `uc  1 a 1 5 ]
+"188
+} 0
+"128
+[v i2_SPI_RW SPI_RW `(uc  1 e 1 0 ]
+{
+[v i2SPI_RW@value value `uc  1 a 1 wreg ]
+[v i2SPI_RW@value value `uc  1 a 1 wreg ]
+"130
+[v i2SPI_RW@value value `uc  1 a 1 0 ]
+"133
+} 0
